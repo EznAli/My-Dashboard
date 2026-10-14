@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f1f1f1;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #222;
+    color: white;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.sidebar a:hover {
+    color: orange;
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.chart {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+}
+
+.chart div {
+    background: blue;
+    width: 50px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
